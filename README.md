@@ -1,2 +1,2 @@
- Digital Business Card Assignment
-This project is a submission for the Borderless-Dev assignment.
+ Profile Card Assignment
+This is a project aimed at testing past knowledge of html,css and vanila javascript
