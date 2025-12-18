@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+@media screen {
+    
+}
+body{
+    background-color: black;
+}
+
+article{
+    background-color: #c5ae9c;
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    
+}
+h2{
+    margin-inline:0.5em ;
+}
+.biography{
+    border-radius: 0.375e;
+    background-color: #aa968a;
+    margin-bottom: 1em;
+    margin-inline: 0.5em 10em;
+    padding-inline: 1em;
+    padding-block: 1em;
+}
