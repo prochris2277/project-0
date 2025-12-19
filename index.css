@@ -6,42 +6,76 @@
 }
 body{
     background-color: black;
+    justify-content: center;
+    align-items: center;
 }
-
+figure{
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 200px;
+    margin-inline: auto;
+    object-fit: cover;
+    border-radius: 8px;
+     
+}
 article{
     background-color: #c5ae9c;
-    margin-block: 1em;
-    margin-inline: 20em;
-    padding: 1em;   
+    width: 25vw;
+    padding: 1em;  
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    margin: 1em auto;
 }
  
+ h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
 .biography{
     border-radius: 0.375em;
     background-color: #aa968a;
     margin-block: 0.5em 1em;
-    margin-inline: 0em 1em;
     padding-inline: 1em;
     padding-block: 1em;
     overflow-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
 
+#date-time{
+    justify-content: center;
+    display: flex;
 }
  
 .links{
-    margin-block: 1em;
+    margin-block: 0.5em;
     list-style: none;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .nav2{
-    margin-block: 1em;
-    margin-inline: 0em;
+    margin-top: 1em;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-p{
+.hobbies{
     margin-bottom: 0.5em;
 }
+.dislikes{
+     
+}
+ 
 a{
 
     color: rgb(56, 56, 143);
-}
-.hobbies{
-    margin-bottom: 1em;
 }
